@@ -1,0 +1,11 @@
+
+train:
+  # Alt dizinlerdeki hasar seviyeleri
+  minor: "/content/data3a/training/01-minor"
+  moderate: "/content/data3a/training/02-moderate"
+  severe: "/content/data3a/training/03-severe"
+
+val:
+  minor: "/content/data3a/validation/01-minor"
+  moderate: "/content/data3a/validation/02-moderate"
+  severe: "/content/data3a/validation/03-severe"

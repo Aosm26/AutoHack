@@ -1,0 +1,2 @@
+araba hasar tespit
+şehir araba parametre model geliştirme

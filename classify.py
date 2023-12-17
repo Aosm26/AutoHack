@@ -1,10 +1,8 @@
-# Dosya adı: predict_with_yolo.py
-
 from ultralytics import YOLO
 import sys
 
 def predict_with_yolo(file_path):
-    # Load a pretrained YOLOv8n model
+    
     model = YOLO('best.pt')
 
     # Predict using the provided file path
@@ -15,7 +13,7 @@ def predict_with_yolo(file_path):
 if __name__ == "__main__":
     # Komut satırı argümanlarını kontrol et
     if len(sys.argv) == 1:
-        # Parametre girilmemişse varsayılan dosya yolu
+        
         file_path = "C:\\Users\\alios\\Desktop\\Desktop\\AutoHack\\arabakaza.jpg"
     elif len(sys.argv) == 2:
         file_path = sys.argv[1]
